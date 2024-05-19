@@ -51,7 +51,7 @@ requirements = python3,kivy
 
 # (list) Supported orientations
 # Valid options are: landscape, portrait, portrait-reverse or landscape-reverse
-orientation = portrait, landscape, portrait-reverse, landscape-reverse
+orientation = portrait
 
 # (list) List of service to declare
 #services = NAME:ENTRYPOINT_TO_PY,NAME2:ENTRYPOINT2_TO_PY
@@ -101,7 +101,7 @@ fullscreen = 0
 #android.features = android.hardware.usb.host
 
 # (int) Target Android API, should be as high as possible.
-#android.api = 33
+#android.api = 31
 
 # (int) Minimum API your APK / AAB will support.
 #android.minapi = 21
@@ -321,7 +321,7 @@ android.allow_backup = True
 #p4a.fork = kivy
 
 # (str) python-for-android branch to use, defaults to master
-#p4a.branch = develop
+#p4a.branch = master
 
 # (str) python-for-android specific commit to use, defaults to HEAD, must be within p4a.branch
 #p4a.commit = HEAD
