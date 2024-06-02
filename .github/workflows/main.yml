@@ -12,7 +12,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Build with Buildozer
-        uses: shutka007/VKR@main
+        uses: shutka007/VKR@master
         id: buildozer
         with:
           workdir: test_app
